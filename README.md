@@ -32,7 +32,7 @@ Let’s understand how a neural network works with an example of Image Classific
 
 **The second layer of a neural network is the hidden layer, responsible for all the calculations to learn from the features of the input data.** There are only three layers in a neural network, but the number of hidden layers can be increased. The more complex the problem, the more hidden layers are preferred. Typically, a neural network with 1-2 hidden layers will work in most deep learning problems, but if the data has a lot of features to learn from, we can choose 3-5 hidden layers.
 
-**The last layer of a neural network is the output layer which classifies the data and provides the final output.** The result given by an output layer is controlled by an **activation function**. The activation function is placed after the hidden layer and used to calculate the weighted sum of inputs and biases, used to determine whether a neuron should be activated or not.
+**The last layer of a neural network is the output layer which classifies the data and provides the final output.** The result given by an output layer is controlled by an [**activation function**](https://github.com/ArshadSheik/Neural-Networks-In-ML/blob/master/Activation%20Functions/README.md). The activation function is placed after the hidden layer and used to calculate the weighted sum of inputs and biases, used to determine whether a neuron should be activated or not.
 
 **So the first layer or the input layer of a neural network receives the input, the second layer or the hidden layers learn from the features of the input data, and the third layer or the output layer provides the output controlled by an activation function.**
 
